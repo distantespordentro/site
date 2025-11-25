@@ -8,19 +8,11 @@
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
- body {
-  background: linear-gradient(#C7E0FF);
- }
- 
- 
- 
- 
- 
-  --background-color:#1486ff;; /* cor fundo */ 
-  --default-color: #768ea3; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #f2f8fe; /* Color for headings, subheadings and title throughout the website */
+  --background-color:#002d5d;; /* cor fundo */ 
+  --default-color: #ffffff; /* Default color used for the majority of the text content across the entire website */
+  --heading-color: #ffffff; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #10a3d7; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: #CFE6FF; /*cor dos quadradinhos */
+  --surface-color: #73b7ff; /*cor dos quadradinhos */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
@@ -43,7 +35,7 @@
 
 .dark-background {
   --background-color: #060606;
-  --default-color: #ffffff;
+  --default-color: #000000;
   --heading-color: #ffffff;
   --surface-color: #252525;
   --contrast-color: #ffffff;
